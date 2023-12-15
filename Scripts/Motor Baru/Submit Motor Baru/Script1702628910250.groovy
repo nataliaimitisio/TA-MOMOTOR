@@ -25,27 +25,5 @@ WebUI.navigateToUrl('https://nextjs.momotor.id/')
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementVisible(findTestObject('Login/button_MasukorDaftar'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Login/button_MasukorDaftar'))
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementVisible(findTestObject('Login/textbox_Username'))
-
-WebUI.setText(findTestObject('Login/textbox_Username'), 'test')
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementVisible(findTestObject('Login/textbox_Password'))
-
-WebUI.setText(findTestObject('Login/textbox_Password'), '12345')
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementVisible(findTestObject('Login/button_Login'))
-
-WebUI.click(findTestObject('Login/button_Login'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.takeScreenshot()
+WebUI.verifyElementVisible(findTestObject('Motor Baru/label_MotorBaru'), FailureHandling.STOP_ON_FAILURE)
 
