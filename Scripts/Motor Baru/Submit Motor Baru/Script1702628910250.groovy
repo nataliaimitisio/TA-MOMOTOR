@@ -25,5 +25,39 @@ WebUI.navigateToUrl('https://nextjs.momotor.id/')
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementVisible(findTestObject('Motor Baru/label_MotorBaru'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Motor Baru/button_MotorBaru'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Motor Baru/button_MotorBaru'))
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Motor Baru/label_MotorBaru'))
+
+WebUI.click(findTestObject('Motor Baru/button_CekDetail'))
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Motor Baru/button_AjukanKredit'))
+
+WebUI.click(findTestObject('Motor Baru/button_AjukanKredit'))
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Motor Baru/textbox_NamaLengkap'))
+
+WebUI.setText(findTestObject('Motor Baru/textbox_NamaLengkap'), 'Dwi')
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Motor Baru/textbox_NomorHandphone'))
+
+WebUI.setText(findTestObject('Motor Baru/textbox_NomorHandphone'), '081021828746')
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Motor Baru/textbox_Email'))
+
+WebUI.setText(findTestObject('Motor Baru/textbox_Email'), 'testingdwi08@gmail.com')
+
+WebUI.takeScreenshot()
 
