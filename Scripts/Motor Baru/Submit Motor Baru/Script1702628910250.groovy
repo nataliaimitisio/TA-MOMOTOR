@@ -43,3 +43,21 @@ WebUI.click(findTestObject('Motor Baru/button_AjukanKredit'))
 
 WebUI.takeScreenshot()
 
+WebUI.verifyElementVisible(findTestObject('Motor Baru/textbox_NamaLengkap'))
+
+WebUI.setText(findTestObject('Motor Baru/textbox_NamaLengkap'), 'Dwi')
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Motor Baru/textbox_NomorHandphone'))
+
+WebUI.setText(findTestObject('Motor Baru/textbox_NomorHandphone'), '081021828746')
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Motor Baru/textbox_Email'))
+
+WebUI.setText(findTestObject('Motor Baru/textbox_Email'), 'testingdwi08@gmail.com')
+
+WebUI.takeScreenshot()
+
