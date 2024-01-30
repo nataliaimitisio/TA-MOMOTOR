@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Momotor_MotorBekas,Chrome 120.0.0.0,,,2024-01-30 15:22:56,2024-01-30 15:24:37,1m - 41.433s,FAILED
+,,,,,,,
+Test Cases/New/new,Chrome 120.0.0.0,,,2024-01-30 15:22:56,2024-01-30 15:23:34,37.569s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-30 15:22:57,2024-01-30 15:23:02,5.506s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-30 15:23:02,2024-01-30 15:23:03,0.199s,PASSED
+"click(findTestObject(""NEW/button_Masuk""))",Chrome 120.0.0.0,,,2024-01-30 15:23:03,2024-01-30 15:23:34,31.319s,FAILED
+,,,,,,,
+Test Cases/Motor Bekas/Motor Bekas,Chrome 120.0.0.0,,,2024-01-30 15:23:34,2024-01-30 15:24:37,1m - 3.373s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-30 15:23:34,2024-01-30 15:23:38,3.429s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-30 15:23:38,2024-01-30 15:23:38,0.150s,PASSED
+navigateToUrl(nextjs),Chrome 120.0.0.0,,,2024-01-30 15:23:38,2024-01-30 15:23:45,7.386s,PASSED
+takeScreenshot(),Chrome 120.0.0.0,,,2024-01-30 15:23:45,2024-01-30 15:23:46,0.876s,PASSED
+"verifyElementVisible(findTestObject(""Motor Bekas/button_MotorBekas""))",Chrome 120.0.0.0,,,2024-01-30 15:23:46,2024-01-30 15:23:47,0.849s,PASSED
+"verifyElementClickable(findTestObject(""Motor Bekas/button_MotorBekas""))",Chrome 120.0.0.0,,,2024-01-30 15:23:47,2024-01-30 15:23:48,0.408s,PASSED
+"click(findTestObject(""Motor Bekas/button_MotorBekas""))",Chrome 120.0.0.0,,,2024-01-30 15:23:48,2024-01-30 15:23:48,0.558s,PASSED
+"verifyElementVisible(findTestObject(""Motor Bekas/label_MotorBekas""))",Chrome 120.0.0.0,,,2024-01-30 15:23:48,2024-01-30 15:24:37,49.202s,FAILED
