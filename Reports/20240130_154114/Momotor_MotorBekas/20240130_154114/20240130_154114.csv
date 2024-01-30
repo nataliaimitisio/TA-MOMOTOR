@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Momotor_MotorBekas,Chrome 120.0.0.0,,,2024-01-30 15:41:19,2024-01-30 15:42:25,1m - 5.713s,FAILED
+,,,,,,,
+Test Cases/Login/Login berhasil,Chrome 120.0.0.0,,,2024-01-30 15:41:20,2024-01-30 15:41:41,21.445s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-30 15:41:20,2024-01-30 15:41:25,4.742s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-30 15:41:25,2024-01-30 15:41:25,0.212s,PASSED
+"navigateToUrl(""https://nextjs.momotor.id/"")",Chrome 120.0.0.0,,,2024-01-30 15:41:25,2024-01-30 15:41:32,6.680s,PASSED
+takeScreenshot(),Chrome 120.0.0.0,,,2024-01-30 15:41:32,2024-01-30 15:41:33,0.756s,PASSED
+"verifyElementVisible(findTestObject(""Login/button_MasukorDaftar""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-30 15:41:33,2024-01-30 15:41:33,0.515s,PASSED
+"click(findTestObject(""Login/button_MasukorDaftar""))",Chrome 120.0.0.0,,,2024-01-30 15:41:33,2024-01-30 15:41:34,0.802s,PASSED
+takeScreenshot(),Chrome 120.0.0.0,,,2024-01-30 15:41:34,2024-01-30 15:41:35,0.897s,PASSED
+"verifyElementVisible(findTestObject(""Login/textbox_Username""))",Chrome 120.0.0.0,,,2024-01-30 15:41:35,2024-01-30 15:41:35,0.582s,PASSED
+"setText(findTestObject(""Login/textbox_Username""), ""test"")",Chrome 120.0.0.0,,,2024-01-30 15:41:35,2024-01-30 15:41:36,1.055s,PASSED
+takeScreenshot(),Chrome 120.0.0.0,,,2024-01-30 15:41:36,2024-01-30 15:41:37,0.785s,PASSED
+"verifyElementVisible(findTestObject(""Login/textbox_Password""))",Chrome 120.0.0.0,,,2024-01-30 15:41:37,2024-01-30 15:41:38,0.567s,PASSED
+"setText(findTestObject(""Login/textbox_Password""), ""12345"")",Chrome 120.0.0.0,,,2024-01-30 15:41:38,2024-01-30 15:41:39,0.989s,PASSED
+takeScreenshot(),Chrome 120.0.0.0,,,2024-01-30 15:41:39,2024-01-30 15:41:39,0.672s,PASSED
+"verifyElementVisible(findTestObject(""Login/button_Login""))",Chrome 120.0.0.0,,,2024-01-30 15:41:39,2024-01-30 15:41:40,0.405s,PASSED
+"click(findTestObject(""Login/button_Login""), STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-30 15:41:40,2024-01-30 15:41:40,0.460s,PASSED
+takeScreenshot(),Chrome 120.0.0.0,,,2024-01-30 15:41:40,2024-01-30 15:41:41,0.834s,PASSED
+,,,,,,,
+Test Cases/Motor Bekas/Motor Bekas,Chrome 120.0.0.0,,,2024-01-30 15:41:41,2024-01-30 15:42:25,43.851s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-30 15:41:42,2024-01-30 15:41:45,3.458s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-30 15:41:45,2024-01-30 15:41:45,0.192s,PASSED
+navigateToUrl(nextjs),Chrome 120.0.0.0,,,2024-01-30 15:41:45,2024-01-30 15:41:46,0.410s,PASSED
+takeScreenshot(),Chrome 120.0.0.0,,,2024-01-30 15:41:46,2024-01-30 15:41:52,6.089s,PASSED
+"verifyElementVisible(findTestObject(""Motor Bekas/button_MotorBekas""))",Chrome 120.0.0.0,,,2024-01-30 15:41:52,2024-01-30 15:41:53,0.781s,PASSED
+"verifyElementClickable(findTestObject(""Motor Bekas/button_MotorBekas""))",Chrome 120.0.0.0,,,2024-01-30 15:41:53,2024-01-30 15:41:53,0.450s,PASSED
+"click(findTestObject(""Motor Bekas/button_MotorBekas""))",Chrome 120.0.0.0,,,2024-01-30 15:41:53,2024-01-30 15:41:54,0.523s,PASSED
+"verifyElementVisible(findTestObject(""Motor Bekas/label_MotorBekas""))",Chrome 120.0.0.0,,,2024-01-30 15:41:54,2024-01-30 15:42:25,31.518s,FAILED
