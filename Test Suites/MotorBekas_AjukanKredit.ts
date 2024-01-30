@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Momotor_MotorBekas</name>
+   <name>MotorBekas_AjukanKredit</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -22,7 +22,7 @@
       <guid>69b1314f-17d1-4b78-8dad-a73790c2941d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motor Bekas/Motor Bekas</testCaseId>
+      <testCaseId>Test Cases/Motor Bekas/Ajukan Kredit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
