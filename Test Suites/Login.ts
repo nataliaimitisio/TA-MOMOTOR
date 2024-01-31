@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>MotorBekas_AjukanKredit</name>
+   <name>Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>0f1fcaa9-f5c9-420b-ab4a-16edd99630db</testSuiteGuid>
+   <testSuiteGuid>c78364b3-dc1d-481c-b5c8-406462e0d548</testSuiteGuid>
    <testCaseLink>
-      <guid>15b23f61-d0c7-4462-9851-42f77129c7a0</guid>
+      <guid>5b866992-bcdd-4285-9bcf-92ea2c0d8175</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login Logout/Login berhasil</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>69b1314f-17d1-4b78-8dad-a73790c2941d</guid>
+      <guid>342f9cb1-2cdf-4cf8-9588-84b26a869e3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Motor Bekas/Ajukan Kredit</testCaseId>
+      <testCaseId>Test Cases/Login Logout/Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

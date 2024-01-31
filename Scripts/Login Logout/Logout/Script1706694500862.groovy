@@ -17,35 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.verifyElementClickable(findTestObject('Logout/button_Profile'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Logout/button_Profile'))
 
-WebUI.navigateToUrl('https://nextjs.momotor.id/')
+WebUI.verifyElementClickable(findTestObject('Logout/button_Profile'))
 
-WebUI.takeScreenshot()
-
-WebUI.verifyElementVisible(findTestObject('Login/button_MasukorDaftar'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Login/button_MasukorDaftar'))
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementVisible(findTestObject('Login/textbox_Username'))
-
-WebUI.setText(findTestObject('Login/textbox_Username'), 'test')
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementVisible(findTestObject('Login/textbox_Password'))
-
-WebUI.setText(findTestObject('Login/textbox_Password'), '12345')
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementVisible(findTestObject('Login/button_Login'))
-
-WebUI.click(findTestObject('Login/button_Login'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Logout/button_Keluar'))
 
 WebUI.takeScreenshot()
 
