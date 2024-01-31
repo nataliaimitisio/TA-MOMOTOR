@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registrasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9db51628-a8d7-4f6e-972c-e8ec2f7c4806</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e97b266-7fb8-4162-ad7f-527ee6a89230</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d36e3c9f-4929-4a2b-9334-a3524e902189</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0b144771-55f6-4f66-85b2-e88271ab1638</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'v.natalia.imitisio@adira.co.id'</defaultValue>
+      <description></description>
+      <id>8e97b266-7fb8-4162-ad7f-527ee6a89230</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'081222121121'</defaultValue>
+      <description></description>
+      <id>d36e3c9f-4929-4a2b-9334-a3524e902189</id>
+      <masked>false</masked>
+      <name>nomorponsel</name>
+   </variable>
+   <variable>
+      <defaultValue>'@Dira2024'</defaultValue>
+      <description></description>
+      <id>0b144771-55f6-4f66-85b2-e88271ab1638</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
