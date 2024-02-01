@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC untuk motor listrik</description>
+   <name>Submit Motor Listrik</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ccc0736e-17cd-47e3-86a4-d31901509961</testCaseGuid>
+</TestCaseEntity>
