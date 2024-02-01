@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.verifyElementClickable(findTestObject('Tukar Tambah/button_tukartambah'))
+
+WebUI.click(findTestObject('Tukar Tambah/button_tukartambah'))
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Tukar Tambah/label_tukartambah'))
+
+WebUI.verifyElementClickable(findTestObject('Tukar Tambah/button_ttsekarang'))
+
+WebUI.click(findTestObject('Tukar Tambah/button_ttsekarang'))
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Tukar Tambah/label_katalogtukar'))
+
+WebUI.verifyElementClickable(findTestObject('Tukar Tambah/button_produkmotor'))
+
+WebUI.click(findTestObject('Tukar Tambah/button_produkmotor'))
+
+WebUI.verifyElementClickable(findTestObject('Tukar Tambah/button_ajukankredit'))
+
+WebUI.click(findTestObject('Tukar Tambah/button_ajukankredit'))
+
