@@ -24,11 +24,15 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.navigateToUrl(GlobalVariable.nextjs)
 //
 //WebUI.takeScreenshot()
+WebUI.navigateToUrl(GlobalVariable.nextjs)
+
 WebUI.verifyElementVisible(findTestObject('Motor Bekas/button_MotorBekas'))
 
 WebUI.verifyElementClickable(findTestObject('Motor Bekas/button_MotorBekas'))
 
 WebUI.click(findTestObject('Motor Bekas/button_MotorBekas'))
+
+WebUI.takeScreenshot(null)
 
 WebUI.verifyElementVisible(findTestObject('Motor Bekas/label_MotorBekas'))
 
@@ -66,19 +70,9 @@ WebUI.click(findTestObject('Motor Bekas/option_Cabang'))
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Motor Bekas/textbox_PerkiraanUangMuka'), '5000000')
+WebUI.setText(findTestObject('Motor Bekas/textbox_PerkiraanUangMuka'), '500000')
 
-WebUI.takeScreenshot()
-
-WebUI.verifyElementClickable(findTestObject('Motor Bekas/button_LamaPinjam'))
-
-WebUI.click(findTestObject('Motor Bekas/button_LamaPinjam'))
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementVisible(findTestObject('Motor Bekas/label_perkiraanCicilan'))
-
-WebUI.verifyElementVisible(findTestObject('Motor Bekas/label_ValuePerkiraanCicilan'))
+WebUI.verifyElementVisible(findTestObject('Motor Bekas/label_minimalDP'))
 
 WebUI.takeScreenshot()
 

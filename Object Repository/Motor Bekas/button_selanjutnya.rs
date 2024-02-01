@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_NamaMotor</name>
+   <name>button_selanjutnya</name>
    <tag></tag>
-   <elementGuidId>d682b1c9-c99d-46a1-af89-7252e590e375</elementGuidId>
+   <elementGuidId>cd9dcbe0-3aec-442a-bf2d-a89d238649e1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;label_umcyProduct3&quot;]</value>
+         <value>//*[@id=&quot;panel1d-content&quot;]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

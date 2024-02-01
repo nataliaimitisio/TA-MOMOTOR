@@ -12,17 +12,24 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>0f1fcaa9-f5c9-420b-ab4a-16edd99630db</testSuiteGuid>
    <testCaseLink>
-      <guid>15b23f61-d0c7-4462-9851-42f77129c7a0</guid>
+      <guid>5faf06cb-3e3d-4186-8b08-a3d1f7be523a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login Logout/Login berhasil</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>69b1314f-17d1-4b78-8dad-a73790c2941d</guid>
+      <guid>788d3256-e1ec-48db-8d50-1668238de29b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Motor Bekas/Ajukan Kredit</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>516ba2d2-f7c1-4e91-8a4f-00c888ef0db7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Motor Bekas/PerkiraanUangMuka dibawah minimal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

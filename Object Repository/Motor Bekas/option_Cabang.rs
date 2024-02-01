@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_NamaMotor</name>
+   <name>option_Cabang</name>
    <tag></tag>
-   <elementGuidId>d682b1c9-c99d-46a1-af89-7252e590e375</elementGuidId>
+   <elementGuidId>d930723f-ca98-485b-aec7-c3c28562c832</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;label_umcyProduct3&quot;]</value>
+         <value>//div[@id='react-select-3-option-2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
