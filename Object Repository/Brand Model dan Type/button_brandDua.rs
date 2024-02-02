@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>checkbox_sdK</name>
+   <name>button_brandDua</name>
    <tag></tag>
-   <elementGuidId>611a7a17-5c62-472a-bddd-1072df896570</elementGuidId>
+   <elementGuidId>2b0ffb6c-4788-476e-8023-d8a6c1491096</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;checkboxSyaratKetentuan&quot;]</value>
+         <value>//*[@id=&quot;dropdown_searchKatalog&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

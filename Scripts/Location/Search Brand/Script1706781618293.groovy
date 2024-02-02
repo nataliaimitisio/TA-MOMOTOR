@@ -25,33 +25,23 @@ WebUI.navigateToUrl('https://nextjs.momotor.id/')
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementClickable(findTestObject('Registrasi/button_Daftar'))
+WebUI.verifyElementClickable(findTestObject('Brand Model dan Type/button_Brand'))
 
-WebUI.click(findTestObject('Registrasi/button_Daftar'))
+WebUI.click(findTestObject('Brand Model dan Type/button_Brand'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementClickable(findTestObject('Registrasi/button_daftarDisini'))
+WebUI.verifyElementVisible(findTestObject('Brand Model dan Type/textbox_Brand'))
 
-WebUI.click(findTestObject('Registrasi/button_daftarDisini'))
+WebUI.setText(findTestObject('Brand Model dan Type/textbox_Brand'), 'Yamaha')
 
-WebUI.verifyElementVisible(findTestObject('Registrasi/textbox_Email'))
+WebUI.verifyElementClickable(findTestObject('Brand Model dan Type/button_brandDua'))
 
-WebUI.setText(findTestObject('Registrasi/textbox_Email'), email)
+WebUI.click(findTestObject('Brand Model dan Type/button_brandDua'))
 
-WebUI.verifyElementVisible(findTestObject('Registrasi/textbox_nomorPonsel'))
+WebUI.verifyElementClickable(findTestObject('Brand Model dan Type/button_brandKlik'))
 
-WebUI.setText(findTestObject('Registrasi/textbox_nomorPonsel'), nomorponsel)
-
-WebUI.verifyElementVisible(findTestObject('Registrasi/textbox_Sandi'))
-
-WebUI.setText(findTestObject('Registrasi/textbox_Sandi'), password)
-
-WebUI.check(findTestObject('Registrasi/checkbox_sdK'))
-
-WebUI.verifyElementClickable(findTestObject('Registrasi/button_daftaruserBaru'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Registrasi/button_daftaruserBaru'))
+WebUI.click(findTestObject('Brand Model dan Type/button_brandKlik'))
 
 WebUI.takeScreenshot()
 
